@@ -51,6 +51,11 @@ button:hover {
     width: 25%;
 }
 
+.filters .locations h4,
+.filters .amenities h4 {
+    font-weight: 400;
+    font-size: 14px;
+}
 .popover {
     visibility: hidden;
     width: 100%;

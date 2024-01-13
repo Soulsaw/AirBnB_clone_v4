@@ -16,8 +16,7 @@ $(document).ready(function () {
 
     function updateAmenitiesList() {
         const amenitiesList = Object.values(selectedAmenities).join(', ');
-        $('DIV#amenities h4').text(amenitiesList);
-	    console.log(amenitiesList);
+        $('DIV.amenities h4').text(amenitiesList);
     }
 });
 
